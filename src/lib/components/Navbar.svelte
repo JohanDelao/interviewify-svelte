@@ -11,7 +11,7 @@
     // }
 </script>
 
-<div class={`h-20 p-4 flex items-center justify-between w-[calc(100vw-1rem)] lg:w-full max-w-screen-2xl mx-auto relative transition-colors ${$isMobileNavOpen ? "bg-primary" : ""}`}>
+<div class={`h-20 p-2 lg:p-4 flex items-center justify-between w-[calc(100vw-0.5rem)] lg:w-full max-w-screen-2xl mx-auto relative transition-colors ${$isMobileNavOpen ? "bg-primary" : ""}`}>
     <div class="flex items-end gap-10">
         <a href="/" class={`font-semibold text-3xl no-underline font-urbanist ${$isMobileNavOpen ? "text-secondary" : "text-primary"}`}>interviewify</a>
         <!-- <a href="/about-us" class="text-base text-slate-500/70 hover:text-slate-500 mb-1 transition-colors hidden md:block">About Us</a>

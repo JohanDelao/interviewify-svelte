@@ -32,12 +32,12 @@
             name: "Track Progress",
             icon: FileClock,
             src: trackProgress,
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            description: "Monitor your progress by reviewing past interviews and their scores in a detailed table, allowing you to identify areas for improvement and track your growth over time."
         },
     ]
 </script>
 
-<div class="p-4 flex flex-col lg:grid lg:grid-cols-2 mt-4 gap-10 w-[calc(100vw-1rem)] lg:w-full max-w-screen-2xl mx-auto">
+<div class="p-2 lg:p-4 flex flex-col lg:grid lg:grid-cols-2 mt-4 gap-10 w-[calc(100vw-0.5rem)] lg:w-full max-w-screen-2xl mx-auto">
     <div class="col-span-1 flex flex-col gap-8">
         <p class="text-5xl xl:text-6xl font-semibold font-inter"><span class="text-primary">Master</span> the Behavorial <span class="text-primary">Interview</span></p>
         <p class="text-lg text-black/60 w-full xl:w-9/12 text-justify">Enhance your interview skills with our AI app, delivering customized feedback and allowing you to practice whenever you want.</p>
@@ -48,7 +48,7 @@
     </div>
 </div>
 <div class="w-full bg-secondary">
-    <div class="p-4 my-6 flex flex-col gap-12 max-w-screen-2xl mx-auto">
+    <div class="p-2 lg:p-4 my-6 flex flex-col gap-12 max-w-screen-2xl mx-auto">
         <div class="flex flex-col gap-5">
             <div class="flex items-center h-3 gap-2">
                 <div class="h-full w-0.5 rounded-full bg-[#1FC198]"></div>
@@ -69,7 +69,7 @@
     </div>
 </div>
 <div class="w-full bg-primary" id="featureSection">
-    <div class="p-4 my-6 flex flex-col items-center gap-20 max-screen-2xl mx-auto">
+    <div class="p-2 lg:p-4 my-6 flex flex-col items-center gap-20 max-screen-2xl mx-auto">
         <div class="flex flex-col gap-4 justify-center items-center text-center">
             <div class="flex items-center h-3 gap-2">
                 <div class="h-full w-0.5 rounded-full bg-[#1FC198]"></div>
@@ -100,7 +100,7 @@
     </div>
 </div>
 <div class="w-full bg-primary">
-    <div class="my-6 p-4 bg-primary flex flex-col gap-6 w-[calc(100vw-1rem)] lg:w-full max-w-screen-2xl mx-auto">
+    <div class="my-6 p-4 bg-primary flex flex-col gap-6 w-[calc(100vw-0.5rem)] lg:w-full max-w-screen-2xl mx-auto">
         <div class="flex flex-col gap-3">
             <p class="font-semibold text-3xl font-urbanist text-secondary">interviewify</p>
             <p class="text-sm text-secondary/80">Master the behavioral interview</p>
