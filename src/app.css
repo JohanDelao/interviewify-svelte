@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+      /* Main blue color */
+      --primary-color: 55 114 255;
+      /* Lighter blue color */
+      --secondary-color: 248 248 255;
+    }
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+button {
+    font-family: "Inter", sans-serif;
+}
