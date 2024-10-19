@@ -1,9 +1,9 @@
 <script>
-    import { FileCode2, Database, FolderKanban, Timer, FileClock, GraduationCap } from 'lucide-svelte';
-    import WaitlistForm from '../lib/components/WaitlistForm.svelte';
-    import prompt from "../lib/assets/interviewPrompt.webp";
-    import timedQuestion from "../lib/assets/InterviewifyQuestion.webp";
-    import trackProgress from "../lib/assets/InterviewTrackProgress.webp";
+    import { FileCode2, Database, FolderKanban, Timer, FileClock } from 'lucide-svelte';
+    import WaitlistForm from '../../lib/components/WaitlistForm.svelte';
+    import prompt from "../../lib/assets/interviewPrompt.webp";
+    import timedQuestion from "../../lib/assets/InterviewifyQuestion.webp";
+    import trackProgress from "../../lib/assets/InterviewTrackProgress.webp";
     const occupations = [
         {
             name: "Software Engineering",
@@ -107,6 +107,6 @@
         </div>
         <WaitlistForm inverse={true} />
         <hr class="w-full h-px rounded-full bg-[#F1F5F9]">
-        <p class="text-sm text-secondary">@ 2024 - interviewify. Made with &lt;3 by <a class="underline-none" href="https://www.linkedin.com/in/abdul-andha/">Abdul Andha</a> and <a class="underline-none" href="https://www.linkedin.com/in/johandelao/">Johan Delao.</a></p>
+        <p class="text-sm text-secondary">© 2024 - interviewify. Made with &lt;3 by <a class="underline-none" href="https://www.linkedin.com/in/abdul-andha/">Abdul Andha</a> and <a class="underline-none" href="https://www.linkedin.com/in/johandelao/">Johan Delao.</a></p>
     </div>
 </div>
