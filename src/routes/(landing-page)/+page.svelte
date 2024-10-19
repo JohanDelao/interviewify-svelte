@@ -40,7 +40,7 @@
 <div class="p-2 lg:p-4 flex flex-col lg:grid lg:grid-cols-2 mt-4 gap-10 w-[calc(100vw-0.5rem)] lg:w-full max-w-screen-2xl mx-auto">
     <div class="col-span-1 flex flex-col gap-8">
         <p class="text-5xl xl:text-6xl font-semibold font-inter"><span class="text-primary">Master</span> the Behavorial <span class="text-primary">Interview</span></p>
-        <p class="text-lg text-black/60 w-full xl:w-9/12 text-justify">Enhance your interview skills with our AI app, delivering customized feedback and allowing you to practice whenever you want.</p>
+        <p class="text-lg text-black/60 w-full xl:w-9/12 xl:text-justify">Enhance your interview skills with our AI app, delivering customized feedback and allowing you to practice whenever you want.</p>
         <WaitlistForm inverse={false} />
     </div>
     <div class="col-span-1 flex justify-center max-w-screen-md mx-auto lg:w-full lg:max-w-full">
