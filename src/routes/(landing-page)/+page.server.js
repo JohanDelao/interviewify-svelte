@@ -10,7 +10,6 @@ async function checkIfEmailExists(email) {
     return false;
   }
 
-  // If data is returned and length is greater than 0, email exists
   return data.length > 0;
 }
 
@@ -22,7 +21,7 @@ export const actions = {
     try {
       const exists = await checkIfEmailExists(fieldEmail);
 
-      if (exists) {
+      if (!exists) {
         const { error } = await supabase.from("waitlist").insert([
           {
             email_address: fieldEmail,
@@ -35,7 +34,7 @@ export const actions = {
 
         return { success: true };
       } else {
-        throw new Error("Email does not exist");
+        throw new Error("Email exists");
       }
     } catch (error) {
       return { success: false };
